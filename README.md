@@ -36,7 +36,7 @@ Our implementation is based on IF-Net as the basic framework for reconstruction.
 
 ## Running
 
-1. Following the steps in data_processing/mesh-fusion to get the water-tight ScanSalon meshes. <br />
+1. Following the steps in data_processing/mesh-fusion to get the water-tight ScanSalon and ShapeNet-v2 meshes. <br />
 2. Following the steps in [Mesh2PC](https://github.com/kochanha/Mesh-to-Pointcloud-using-Blensor) to get simulated scans from ShapeNet meshes. <br />
 3. Following the steps in data_processing/process.sh to preprocess all data. <br />
 4. Run `train_ddp.sh` to train the model in a parrallel way. <br />
